@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " p ",
+        "i i",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "p": {
+            "item": "minecraft:piston"
+        }
+    },
+    "result": {
+        "item": "rm:bullet_crafter",
+        "count": 1
+    }
+}

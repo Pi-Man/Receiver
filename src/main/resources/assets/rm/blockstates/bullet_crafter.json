@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "active=false,facing=north": {"model": "rm:bullet_crafter"},
+        "active=false,facing=east": {"model": "rm:bullet_crafter", "y": 90},
+        "active=false,facing=south": {"model": "rm:bullet_crafter", "y": 180},
+        "active=false,facing=west": {"model": "rm:bullet_crafter", "y": 270},
+        "active=true,facing=north": {"model": "rm:bullet_crafter_on"},
+        "active=true,facing=east": {"model": "rm:bullet_crafter_on", "y": 90},
+        "active=true,facing=south": {"model": "rm:bullet_crafter_on", "y": 180},
+        "active=true,facing=west": {"model": "rm:bullet_crafter_on", "y": 270}
+    }
+}

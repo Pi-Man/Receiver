@@ -1,0 +1,170 @@
+{
+    "pools": [
+        {
+            "name": "normal",
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "rm:bullet45",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "rm:bullet22",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "rm:bullet38special",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                                {
+                    "type": "item",
+                    "name": "rm:bullet9mm",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "rm:shotgun_shell",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "special",
+            "conditions": [
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "rm:other/glockwithclip",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "rm:other/thompsonwithclip",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "rm:other/coltwithclip",
+                    "weight": 10
+                },                {
+                    "type": "item",
+                    "name": "rm:_gun_boltrifle",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_gun_model_10",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_clip_glock",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_clip_colt",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_gun_remington870",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:thompson_mag",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:frag_grenade",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "rm:rifle_scope",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "name": "cassette",
+            "conditions": [
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "rm:cassette"
+                }
+            ]
+        }
+    ]
+}

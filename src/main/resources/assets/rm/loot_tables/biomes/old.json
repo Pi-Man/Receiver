@@ -1,0 +1,90 @@
+{
+    "pools": [
+        {
+            "name": "normal",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "rm:bullet45",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "rm:bullet38special",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                                {
+                    "type": "item",
+                    "name": "rm:bullet9mm",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "special",
+            "conditions": [
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.05,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "rm:other/glockwithclip",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "rm:other/coltwithclip",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_gun_model_10",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_clip_glock",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rm:_clip_colt",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

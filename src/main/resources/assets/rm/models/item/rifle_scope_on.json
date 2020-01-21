@@ -1,0 +1,31 @@
+{
+	"parent": "rm:item/rifle_scope",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 0, 0],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [-13.1, 8.321, 18],
+			"scale": [2, 2, 1]
+		},
+		"ground": {
+			"translation": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0]
+		}
+	}
+}

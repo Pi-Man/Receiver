@@ -1,0 +1,8 @@
+{
+    "recipes": {
+        "accessory": "com.PiMan.RecieverMod.util.handlers.AccessoryShapedRecipe$Factory"
+    },
+    "ingredients": {
+        "accessory": "com.PiMan.RecieverMod.crafting.AccessoryIngredientFactory"
+    }
+}

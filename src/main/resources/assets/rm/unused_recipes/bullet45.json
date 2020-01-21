@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "rm:bullet45casing"
+        },
+        {
+            "item": "rm:small_gunpowder"
+        },
+        {
+            "item": "rm:bullet45bullet"
+        }
+    ],
+    "result": {
+        "item": "rm:bullet45",
+        "count": 1
+    }
+}

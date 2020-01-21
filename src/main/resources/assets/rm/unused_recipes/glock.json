@@ -1,0 +1,17 @@
+{
+    "type": "rm:non_mirrored_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "  i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "rm:_gun_glock",
+        "count": 1
+    }
+}

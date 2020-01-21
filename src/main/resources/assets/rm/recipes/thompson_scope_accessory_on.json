@@ -1,0 +1,21 @@
+{
+    "type": "rm:accessory",
+    "pattern": [
+        " s ",
+        " r ",
+        "   "
+    ],
+    "key": {
+        "r": {
+            "item": "rm:_gun_thompson"
+        },
+        "s": {
+            "item": "rm:rifle_scope"
+        }
+    },
+    "result": {
+        "type": "rm:accessory",
+        "item": "rm:_gun_thompson",
+        "accessory": "rm:rifle_scope"
+    }
+}

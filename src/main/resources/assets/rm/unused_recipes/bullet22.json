@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "rm:bullet22casing"
+        },
+        {
+            "item": "rm:small_gunpowder"
+        },
+        {
+            "item": "rm:bullet22bullet"
+        }
+    ],
+    "result": {
+        "item": "rm:bullet22",
+        "count": 1
+    }
+}

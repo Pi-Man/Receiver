@@ -1,0 +1,392 @@
+{
+    "elements": [
+        {
+            "from": [7.5, 7.5, 9.5],
+            "to": [8.5, 8.5, 10.5],
+            "faces": {
+                "north": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "east": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "south": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "up": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "down": {"uv": [0, 0, 1, 1], "texture": "#missing"}
+            }
+        },
+        {
+            "from": [7.5, 7.5, 7.5],
+            "to": [8.5, 8.5, 8.5],
+            "faces": {
+                "north": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "east": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "south": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "up": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+                "down": {"uv": [0, 0, 1, 1], "texture": "#missing"}
+            }
+        }
+    ],
+    "display": {
+        "firstperson_righthand": {
+            "translation": [0, 4.5, 0]
+        }
+    },
+    "submodels": [
+       {
+           "model": "rm:spintest",
+           "predicates": {
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 0,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:ejector",
+           "predicates": {
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 0,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet1": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, 0, -0.04375],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet2": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, 0.038125, -0.021875],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet3": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, 0.038125, 0.021875],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet4": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, 0, 0.04375],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet5": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, -0.038125, 0.021875],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       },
+       {
+           "model": "rm:bullet45",
+           "predicates": {
+               "bullet6": [
+                   {
+                       "value": "default",
+                       "transformation": {
+                           "scale": [0, 0, 0]
+                       }
+                   },
+                   {
+                       "value": 1,
+                       "order": 0,
+                       "transformation": {
+                           "translation": [0.2328125, -0.038125, -0.021875],
+                           "rotation": [0, -90, 0],
+                           "scale": [1, 1, 1]
+                       }
+                   }
+               ],
+               "spin": [
+                   {
+                       "value": "variable",
+                       "order": 1,
+                       "transformation": {
+                           "rotation": [0, 0, 60]
+                       }
+                   }
+               ],
+               "open": [
+                   {
+                       "value": "variable",
+                       "order": 2,
+                       "transformation": {
+                           "rotation": [0, 0, -60],
+                           "center": [0, -0.125, 0]
+                       }
+                   }
+               ],
+               "eject": [
+                   {
+                       "value": "variable",
+                       "order": 3,
+                       "transformation": {
+                           "translation": [0, 0, 0.0625]
+                       }
+                   }
+               ]
+           }
+       }
+   ]
+}

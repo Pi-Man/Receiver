@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nnn",
+        "n  ",
+        "nnn"
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "rm:bullet22casing",
+        "count": 32
+    }
+}
